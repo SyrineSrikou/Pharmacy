@@ -1,0 +1,59 @@
+#registerForm {
+	padding: 20px 0;
+}
+
+.random-produit {
+	box-shadow: 0 0 5px darkgrey;
+}
+
+.main-nav {
+	width: 100%;
+}
+
+.main-nav li {
+	padding: 0 30px;
+}
+
+.review-form {
+	padding: 10px 0;
+}
+
+.user-reviews {
+	padding: 10px 0;
+	border-top: solid 1px darkgray;
+}
+
+.total-price {
+	position: fixed;
+	right: 20px;
+}
+
+.media {
+	align-items: center;
+}
+
+.table td {
+	vertical-align: middle;
+}
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+	bottom: 6rem;
+	z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+	height: 34rem;
+  }
+  .carousel-item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 34rem;
+  }
